@@ -1,0 +1,4 @@
+ALTER DROP CONSTRAINT "unique_username";
+ALTER DROP CONSTRAINT "unique_email";
+
+DROP TABLE "users";

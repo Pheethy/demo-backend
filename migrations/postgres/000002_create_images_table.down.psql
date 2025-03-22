@@ -1,0 +1,4 @@
+ALTER TABLE "iamges" DROP CONSTRAINT "unique_filename";
+ALTER TABLE "iamges" DROP CONSTRAINT "fk_images_users";
+
+DROP TABLE "images";
